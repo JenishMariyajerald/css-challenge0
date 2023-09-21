@@ -1,0 +1,279 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(8, 8, 123);
+}
+
+.logo {
+    width: 40px;
+    height: auto;
+    filter: invert(100%);
+}
+
+
+.header-left ul {
+    display: flex;
+    align-items: center;
+
+}
+
+.header-center {
+    display: flex;
+    align-items: center;
+}
+
+.header-left li {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+.header-left a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+#right {
+    margin-right: 20px;
+}
+
+.product-item-container {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: #fff;
+}
+
+.product-list-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    height: 100%;
+}
+
+.product-item-container img {
+    height: 200px;
+    width: auto;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.description {
+    padding: 15px;
+}
+
+.description h1 {
+    color: steelblue;
+    text-decoration: none;
+}
+
+#search {
+    width: auto;
+    padding: 5px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    outline: none;
+}
+
+#search-button {
+    background-color: #007bff;
+    color: #fff;
+    border: white;
+    border-radius: 25px;
+    padding: 7px 20px;
+    margin-left: -25px;
+    cursor: pointer;
+    /* transition: background-color 0.3s ease; */
+}
+
+#search-button:hover {
+    background-color: #0056b3;
+}
+
+.main-list {
+    background: #8d76d0;
+    min-height: 150vh;
+    position: relative;
+}
+
+.medium-container {
+    display: none;
+}
+
+.menu-container {
+    display: none;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.menu-container button {
+    background: transparent;
+    border: none;
+}
+
+#menuDrawer {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-y: auto;
+    left: -250px;
+    width: 250px;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 10px;
+    transition: left 0.5s ease-in-out;
+    align-items: flex-start;
+}
+
+#menuDrawer.open {
+    left: 0;
+}
+
+#menuDrawer button {
+    background: transparent;
+    border: none;
+}
+
+#closeIcon {
+    width: 40px;
+    height: auto;
+    background: none;
+    filter: invert(100%);
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    margin-left: 2rem;
+}
+
+#menuDrawer ul {
+    list-style-type: none;
+    padding: 20px;
+}
+
+#menuDrawer li {
+    margin-bottom: 15px;
+}
+
+#menuDrawer a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.drawer-input-container {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.drawer-input-container #button {
+    background-color: #007bff;
+    color: #fff;
+    border: #fff;
+    border-radius: 25px;
+    padding: 7px 20px;
+    margin-left: -25px;
+    cursor: pointer
+}
+
+.footer-container {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    background: rgb(8, 8, 123);
+    width: -webkit-fill-available;
+    height: auto;
+}
+
+.footer-container h1,
+p {
+    color: #fff;
+    text-align: center;
+}
+
+/* .footer-container p {
+    color: #fff;
+} */
+
+.footer-icon {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-icon img {
+    width: 40px;
+    height: auto;
+    filter: invert(100%);
+}
+
+
+@media screen and (max-width:768px) {
+    .header-center {
+        display: none;
+    }
+
+    .medium-container {
+        display: flex;
+        flex-direction: coulumn;
+        margin: 10px;
+        justify-content: center;
+    }
+
+    #tab-search {
+        width: 80%;
+        padding: 5px;
+        border: 2px solid #ccc;
+        border-radius: 25px;
+        outline: none;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .medium-container {
+        display: none;
+    }
+
+    .header-left ul li {
+        display: none;
+    }
+
+    .menu-container {
+        display: flex;
+    }
+
+    .logo {
+        width: 30px;
+    }
+
+    #closeIcon {
+        width: 30px;
+    }
+
+    .menu-container img {
+        width: 28px;
+        filter: invert(100%)
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        align-items: center;
+    }
+
+    #follow {
+        text-align: center;
+    }
+}

@@ -1,0 +1,291 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Fjallraven - Backpack",
+            "price": 109.95,
+            "description": "Your perfect pack for everyday use and walks in the forest.",
+            "category": "men's clothing",
+            "rating": 5,
+            "qty":10,
+            "image": "https://m.media-amazon.com/images/I/81HwKy0vJsL._SY879_.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Mens Casual Fit T-Shirts ",
+            "price": 22.3,
+            "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket.",
+            "category": "men's clothing",
+            "rating": 4.2,
+            "qty":20,
+            "image": "https://m.media-amazon.com/images/I/51fif02-zTS._UY879_.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Mens Cotton Jacket",
+            "price": 55.99,
+            "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions.",
+            "category": "men's clothing",
+            "rating": 3.6,
+            "qty":12,
+            "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Mens Casual Slim Fit",
+            "price": 15.99,
+            "description": "The color could be slightly different between on the screen and in practice.",
+            "category": "men's clothing",
+            "rating": 5,
+            "qty":15,
+            "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Chain Bracelet",
+            "price": 695,
+            "description": "Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+            "category": "jewelery",
+            "rating": 4.5,
+            "qty":10,
+            "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Gold Petite Micropave ",
+            "price": 168,
+            "description": "Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States.",
+            "category": "jewelery",
+            "rating": 5,
+            "qty":10,
+            "image": "https://cdn.caratlane.com/media/catalog/product/J/R/JR03260-WGP900_1_lar.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Gold Plated Princess",
+            "price": 9.99,
+            "description": "Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
+            "category": "jewelery",
+            "rating": 4.3,
+            "qty":10,
+            "image": "https://cdn.caratlane.com/media/catalog/product/J/R/JR06400-1YP900_1_lar.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Rose Gold Plated Steel",
+            "price": 10.99,
+            "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings.",
+            "category": "jewelery",
+            "rating": 5,
+            "qty":10,
+            "image": "https://cdn.caratlane.com/media/catalog/product/J/R/JR03646-RGP900_1_lar.jpg"
+        },
+        {
+            "id": 9,
+            "name": "WD 2TB Hard Drive - USB 3.0 ",
+            "price": 64,
+            "description": "Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; ",
+            "category": "electronics",
+            "rating": 3.7,
+            "qty":10,
+            "image": "https://www.goitmart.com/wp-content/uploads/2021/08/wd-1tb-600x600.jpg"
+        },
+        {
+            "id": 10,
+            "name": "SanDisk SSD PLUS 1TB",
+            "price": 109,
+            "description": "Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance",
+            "category": "electronics",
+            "rating": 5,
+            "qty":10,
+            "image": "https://m.media-amazon.com/images/I/71J4Q8zM72L._SX679_.jpg"
+        },
+        {
+            "id": 11,
+            "name": "Silicon Power 256GB",
+            "price": 109,
+            "description": "3D NAND flash to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance.",
+            "category": "electronics",
+            "rating": 5,
+            "qty":10,
+            "image": "https://m.media-amazon.com/images/I/71d313WigOL._SX679_.jpg"
+        },
+        {
+            "id": 12,
+            "name": "WD 4TB Hard Drive",
+            "price": 114,
+            "description": "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
+            "category": "electronics",
+            "rating": 5,
+            "qty":10,
+            "image": "https://www.goitmart.com/wp-content/uploads/2021/08/wd-1tb-600x600.jpg"
+        },
+        {
+            "id": 13,
+            "name": "Acer SB220Q",
+            "price": 599,
+            "description": "21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology.",
+            "category": "electronics",
+            "rating": 5,
+            "qty":10,
+            "image": "https://m.media-amazon.com/images/I/91o7ik+GGoL._AC_SX679_.jpg"
+        },
+        {
+            "id": 14,
+            "name": "Samsung 49-Inch",
+            "price": 999.99,
+            "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen",
+            "category": "electronics",
+            "rating": 4,
+            "qty":10,
+            "image": "https://m.media-amazon.com/images/I/91o7ik+GGoL._AC_SX679_.jpg"
+        },
+        {
+            "id": 15,
+            "name": "Snowboard Jacket Winter Coats",
+            "price": 56.99,
+            "description": "Skin Friendly, Lightweigt and Warm.",
+            "category": "women's clothing",
+            "rating": 5,
+            "qty":10,
+            "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg"
+        },
+        {
+            "id": 16,
+            "name": "Moto Biker Jacket",
+            "price": 29.95,
+            "description": "100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER)",
+            "category": "women's clothing",
+            "rating": 4,
+            "qty":10,
+            "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg"
+        },
+        {
+            "id": 17,
+            "name": "Rain Jacket",
+            "price": 39.99,
+            "description": "Lightweight perfet for trip or casual wear---Long sleeve with hooded.",
+            "category": "women's clothing",
+            "rating": 3.9,
+            "qty":10,
+            "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg"
+        },
+        {
+            "id": 18,
+            "name": "Short Sleeve Boat Neck V ",
+            "price": 9.85,
+            "description": "Lightweight fabric with great stretch for comfort, Ribbed on sleeves and neckline / Double stitching on bottom hem",
+            "rating": 4.9,
+            "qty":10,
+            "image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg"
+        },
+        {
+            "id": 19,
+            "name": "Short Sleeve Moisture",
+            "price": 7.95,
+            "description": "Soft Lightweight Fabric with comfortable V-neck collar and a slimmer fit, delivers a sleek, more feminine silhouette and Added Comfort",
+            "rating": 4.6,
+            "qty":10,
+            "image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg"
+        },
+        {
+            "id": 20,
+            "name": "T Shirt Casual",
+            "price": 12.99,
+            "description": "95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees, The fabric is soft and has some stretch.",
+            "rating": 5,
+            "qty":10,
+            "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg"
+        },
+        {
+            "id": 21,
+            "name": "- Daal Masoor 500 grams",
+            "description": "Fine quality Branded Product Keep in a cool and dry place",
+            "price": 20,
+            "rating": 5,
+            "qty":10,
+            "image": "https://i.dummyjson.com/data/products/21/1.png"
+        },
+        {
+            "id": 22,
+            "name": "Elbow Macaroni - 400 gm",
+            "description": "Product details of Bake Parlor Big Elbow Macaroni - 400 gm",
+            "price": 14,
+            "rating": 4,
+            "qty":10,
+            "image": "https://i.dummyjson.com/data/products/22/1.jpg"
+        },
+        {
+            "id": 23,
+            "name": "Orange Essence Food Flavou",
+            "description": "Specifications of Orange Essence Food Flavour For Cakes and Baking Food Item",
+            "price": 14,
+            "rating": 3,
+            "qty":10,
+            "image": "https://i.dummyjson.com/data/products/23/1.jpg"
+        },
+        {
+            "id": 24,
+            "name": "cereals muesli fruit nuts",
+            "description": "original fauji cereal muesli 250gm box pack original fauji cereals muesli fruit nuts flakes breakfast cereal break fast faujicereals cerels cerel foji fouji",
+            "price": 46,
+            "rating": 4.5,
+            "qty":10,
+            "image": "https://i.dummyjson.com/data/products/24/1.jpg"
+        },
+        {
+            "id": 25,
+            "name": "Gulab Powder 50 Gram",
+            "description": "Dry Rose Flower Powder Gulab Powder 50 Gram • Treats Wounds",
+            "price": 70,
+            "rating": 4,
+            "qty":10,
+            "image": "https://i.dummyjson.com/data/products/25/1.png"
+        },
+        {
+            "id": 26,
+            "name": "Plant Hanger For Home",
+            "description": "Boho Decor Plant Hanger For Home Wall Decoration Macrame Wall Hanging Shelf",
+            "price": 41,
+            "rating": 5,
+            "qty":10,
+            "image": "https://i.dummyjson.com/data/products/26/1.jpg"
+        },
+        {
+            "id": 27,
+            "name": "Flying Wooden Bird",
+            "description": "Package Include 6 Birds with Adhesive Tape Shape: 3D Shaped Wooden Birds Material: Wooden MDF, Laminated 3.5mm",
+            "price": 51,
+            "rating": 3,
+            "qty":10,
+            "image": "https://i.dummyjson.com/data/products/27/1.jpg"
+        },
+        {
+            "id": 28,
+            "name": "3D Embellishment Art Lamp",
+            "description": "3D led lamp sticker Wall sticker 3d wall art light on/off button  cell operated (included)",
+            "price": 20,
+            "rating": 4.5,
+            "qty":10,
+            "image": "https://i.dummyjson.com/data/products/28/1.jpg"
+        },
+        {
+            "id": 29,
+            "name": "Handcraft Chinese style",
+            "description": "Handcraft Chinese style art luxury palace hotel villa mansion home decor ceramic vase with brass fruit plate",
+            "price": 60,
+            "rating": 3.5,
+            "qty":10,
+            "image": "https://i.dummyjson.com/data/products/29/1.jpg"
+        },
+        {
+            "id": 30,
+            "name": "Key Holder",
+            "description": "Attractive DesignMetallic materialFour key hooksReliable & DurablePremium Quality",
+            "price": 30,
+            "rating": 4,
+            "qty":10,
+            "image": "https://i.dummyjson.com/data/products/30/1.jpg"
+        }
+    ]
+}
