@@ -8,4 +8,7 @@ import Facebook from './facebook.png';
 import Instagram from './instagram.png';
 import Whatsapp from './whatsapp.png';
 
-export {Logo,Cart,Profile,Menu, Cancel, Twitter, Facebook, Instagram, Whatsapp};
+export {Logo,Menu, Cancel};
+
+export const socialMediaIcons = [ Twitter, Facebook, Instagram, Whatsapp];
+export const cartAndProfileIcon = [Cart,Profile];

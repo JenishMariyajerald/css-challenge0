@@ -1,4 +1,5 @@
-import { Twitter, Facebook, Instagram,Whatsapp } from "../../assets"
+import { socialMediaIcons } from "../../assets";
+import Image from "../Image";
 const Footer = () =>{
     return <footer className="footer-container">
     <div>
@@ -19,12 +20,11 @@ const Footer = () =>{
     <div>
       <h1 id="follow">Follow Us</h1>
       <div className="footer-icon">
-          <img src={Twitter} alt="logo" />
-          <img src={Facebook} alt="logo" />
-        
-          <img src={Instagram} alt="logo" />
-       
-          <img src={Whatsapp} alt="logo" />
+        {socialMediaIcons.map((item)=>{
+          return (
+            <Image src={item}/>
+          )
+        })}
           </div>
     </div>
   </footer>

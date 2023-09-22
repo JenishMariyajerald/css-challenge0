@@ -1,6 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { Logo, Profile, Cart, Menu, Cancel } from "../../assets";
-
+import { Logo, Menu, Cancel } from "../../assets";
+import { menuList } from "../../utils/menuList";
+import { cartAndProfileIcon } from "../../assets";
+import Image from "../Image";
 const Header = () => {
   const toggleMenu = () => {
     var menuDrawer = document.getElementById("menuDrawer");
@@ -12,29 +14,24 @@ const Header = () => {
       <div className="header-container">
         <div className="menu-container">
           <button onClick={toggleMenu}>
-            <img src={Menu} alt="" />
+            <Image src={Menu}/>
           </button>
         </div>
         <div className="header-left">
           <ul>
-            <img className="logo" src={Logo} alt="" />
-            <li>
-              <a href="#">Home</a>
-            </li>
-            <li>
-              <a href="#">Products</a>
-            </li>
-            <li>
-              <a href="#">About</a>
-            </li>
-            <li>
-              <a href="#">Contact</a>
-            </li>
+            <Image src={Logo} className={"logo"} />
+            {menuList.map((item) => {
+              return (
+                <li>
+                  <a href={item.href}>{item.label}</a>
+                </li>
+              );
+            })}
           </ul>
         </div>
         <div id="menuDrawer">
           <button onClick={toggleMenu}>
-            <img id="closeIcon" src={Cancel} alt="" />
+            <Image id={"closeIcon"} src={Cancel} />
           </button>
 
           <ul>
@@ -44,21 +41,13 @@ const Header = () => {
                 Search
               </button>
             </div>
-            <li>
-              <a href="#">Home</a>
-            </li>
-            <li>
-              <a href="#">Products</a>
-            </li>
-            <li>
-              <a href="#">Media</a>
-            </li>
-            <li>
-              <a href="#">About</a>
-            </li>
-            <li>
-              <a href="#">Contact</a>
-            </li>
+            {menuList.map((item) => {
+              return (
+                <li>
+                  <a href={item.href}>{item.label}</a>
+                </li>
+              );
+            })}
           </ul>
         </div>
         <div className="header-center">
@@ -70,8 +59,9 @@ const Header = () => {
           </div>
         </div>
         <div className="header-right">
-          <img id="right" className="logo" src={Cart} alt="" />
-          <img id="right" className="logo" src={Profile} alt="" />
+          {cartAndProfileIcon.map((item) => {
+            return <Image id={"right"} className={"logo"} src={item} />;
+          })}
         </div>
       </div>
       <div className="medium-container">
